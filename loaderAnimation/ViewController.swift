@@ -32,6 +32,11 @@ class ViewController: UIViewController {
     var gradientGreen: CGFloat = 255
     var gradientBlue: CGFloat = 255
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    //
+    }
+    
     @IBAction func progressChanged(_ sender: UISlider) {
         let progress = CGFloat(sender.value)
         horizontalBar.progress = progress
