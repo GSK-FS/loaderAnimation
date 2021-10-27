@@ -22,6 +22,7 @@ class RotatingCircularGradientProgressBar: UIView {
         didSet { setNeedsDisplay() }
     }
 
+    //Ring Gradiant
     private var progressLayer = CAShapeLayer()
     private var backgroundMask = CAShapeLayer()
     private let gradientLayer = CAGradientLayer()
