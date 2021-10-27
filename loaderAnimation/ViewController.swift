@@ -14,14 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var gradientCircularProgressBar: GradientCircularProgressBar!
     @IBOutlet weak var rotatingProgressBar: RotatingCircularGradientProgressBar!
 
+    //Color Sliders
     @IBOutlet weak var redColorSlider: UISlider!
     @IBOutlet weak var greenColorSlider: UISlider!
     @IBOutlet weak var blueColorSlider: UISlider!
-
+    //Gradiant Color Bars
     @IBOutlet weak var redGradientSlider: UISlider!
     @IBOutlet weak var greenGradientSlider: UISlider!
     @IBOutlet weak var blueGradientSlider: UISlider!
-
+    
+    //Progress slider
     @IBOutlet weak var progressSlider: UISlider!
 
     var colorRed: CGFloat = 250
@@ -37,6 +39,7 @@ class ViewController: UIViewController {
     //
     }
     
+    //progress Bar Value Listner
     @IBAction func progressChanged(_ sender: UISlider) {
         let progress = CGFloat(sender.value)
         horizontalBar.progress = progress
