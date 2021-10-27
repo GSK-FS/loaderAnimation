@@ -19,6 +19,7 @@ class PlainCircularProgressBar: UIView {
         didSet { setNeedsDisplay() }
     }
 
+    //Ring layers
     private var progressLayer = CAShapeLayer()
     private var backgroundMask = CAShapeLayer()
 

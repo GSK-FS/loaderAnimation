@@ -18,6 +18,7 @@ class PlainHorizontalProgressBar: UIView {
         didSet { setNeedsDisplay() }
     }
 
+    //Horizontal Plan Layer
     private let progressLayer = CALayer()
     private let backgroundMask = CAShapeLayer()
 

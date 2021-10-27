@@ -111,10 +111,10 @@
 		F401FB27270471EC005D2262 /* loaderAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F4B298D22728A2FC00377131 /* Loaders */,
 				F401FB28270471EC005D2262 /* AppDelegate.swift */,
 				F401FB2A270471EC005D2262 /* SceneDelegate.swift */,
 				F4B298DD2728A55E00377131 /* ViewController.swift */,
+				F4B298D22728A2FC00377131 /* Loaders */,
 				F4B298DF2728A57400377131 /* Main.storyboard */,
 				F401FB34270471EF005D2262 /* Assets.xcassets */,
 				F401FB36270471EF005D2262 /* LaunchScreen.storyboard */,

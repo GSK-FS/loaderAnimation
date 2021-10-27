@@ -10,18 +10,21 @@ import UIKit
 
 @IBDesignable
 class GradientCircularProgressBar: UIView {
+    //set Color
     @IBInspectable var color: UIColor = .gray {
         didSet { setNeedsDisplay() }
     }
     @IBInspectable var gradientColor: UIColor = .white {
         didSet { setNeedsDisplay() }
     }
+    //ring radius*2
     @IBInspectable var ringWidth: CGFloat = 5
 
     var progress: CGFloat = 0 {
         didSet { setNeedsDisplay() }
     }
 
+    //progress ring layers setup
     private var progressLayer = CAShapeLayer()
     private var backgroundMask = CAShapeLayer()
     private let gradientLayer = CAGradientLayer()

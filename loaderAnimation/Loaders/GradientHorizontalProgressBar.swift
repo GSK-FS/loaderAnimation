@@ -21,6 +21,7 @@ class GradientHorizontalProgressBar: UIView {
         didSet { setNeedsDisplay() }
     }
 
+    //Layers setup, total 3
     private let progressLayer = CALayer()
     private let gradientLayer = CAGradientLayer()
     private let backgroundMask = CAShapeLayer()
